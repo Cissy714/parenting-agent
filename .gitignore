@@ -1,0 +1,34 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ChromaDB vector stores
+chroma_data/
+chroma_parenting_db/
+
+# SQLite databases
+parenting_memory.db
+
+# Logs
+logs/
+
+# Raw books & datasets (copyrighted)
+raw_books/
+
+# Interview prep docs
+docs/interview_prep.md
+docs/interview_q_and_a_optimized.md
+
+# IDE / local config
+.claude/
+
+# Eval reports (generated)
+evaluation/reports/
+
+# Dev artifacts
+.devlog
+todo

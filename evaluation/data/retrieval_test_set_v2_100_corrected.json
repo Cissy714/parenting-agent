@@ -1,0 +1,1305 @@
+[
+  {
+    "query": "我家宝宝6个月了还不会翻身，是不是发育迟缓啊？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "发育"
+    ],
+    "expected_keywords": [
+      "发育迟缓",
+      "翻身",
+      "6个"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "发育迟缓和生长缓慢是一回事吗？怎么区分？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "发育",
+      "生长"
+    ],
+    "expected_keywords": [
+      "发育迟缓",
+      "发育迟缓和生长缓慢是一回事吗"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "宝宝出生时2.8kg，比隔壁家孩子轻，以后能追得上吗？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "生长"
+    ],
+    "expected_keywords": [
+      "比隔壁家孩子轻",
+      "以后能追得上吗",
+      "宝宝出生时2",
+      "8kg"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "生长曲线到底怎么看？我该怎么给宝宝画？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "生长"
+    ],
+    "expected_keywords": [
+      "生长曲线",
+      "生长曲线到底怎么看",
+      "我该怎么给宝宝画"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "宝宝10个月了还不会爬，需要干预吗？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "发育"
+    ],
+    "expected_keywords": [
+      "10个",
+      "宝宝10个月了还不会爬"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "怎么判断宝宝身高体重是否正常？要看百分位吗？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "生长"
+    ],
+    "expected_keywords": [
+      "身高",
+      "体重"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "早产儿纠正月龄怎么算？什么时候开始算实际月龄？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "生长",
+      "发育"
+    ],
+    "expected_keywords": [
+      "早产儿",
+      "早产儿纠正月龄怎么算"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "宝宝头围增长慢，是不是脑发育有问题？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "第三章 生长热点 逃不掉的话题",
+      "第二章 生长曲线 看得见的生长秘密",
+      "第一章 生长 最自然的成长过程"
+    ],
+    "expected_keywords": [
+      "头围",
+      "宝宝头围增长慢"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "快生了，待产包里到底哪些东西是真正必需的？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "第一次",
+      "新生儿"
+    ],
+    "expected_keywords": [
+      "待产包",
+      "待产包里到底哪些东西是真正必需的",
+      "快生了"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "医院待产包东西全吗？自己还需要额外准备什么？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "第一次"
+    ],
+    "expected_keywords": [
+      "待产包",
+      "自己还需要额外准备什么",
+      "医院待产包东西全吗"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "宝宝刚出生是怎么开始呼吸和吃奶的？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "食物"
+    ],
+    "expected_keywords": [
+      "吃奶",
+      "宝宝刚出生是怎么开始呼吸和吃奶的"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "新生儿黄疸要不要紧？什么时候需要照蓝光？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "第4章 与宝宝一起迈好第一步",
+      "第一章 第一次 亲密接触",
+      "第5章　新生儿的最初几日"
+    ],
+    "expected_keywords": [
+      "黄疸",
+      "新生儿"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "脐带怎么护理？多久会脱落？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "第五章 呵护 从头到脚",
+      "第5章　新生儿的最初几日",
+      "第2章　分娩和分娩后"
+    ],
+    "expected_keywords": [
+      "脐带",
+      "脐带怎么护理"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "宝宝回家后怎么洗澡？水温多少合适？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "第五章 呵护 从头到脚",
+      "第6章 照顾宝宝的身体",
+      "第3章　婴儿的基本护理"
+    ],
+    "expected_keywords": [
+      "洗澡",
+      "宝宝回家后怎么洗澡",
+      "水温多少合适"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "新生儿睡觉要不要枕头？侧睡还是仰睡？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "第7章 最初几周的一般护理",
+      "第六章 发育 热点问题",
+      "第三章 睡眠 自主无忧的开始"
+    ],
+    "expected_keywords": [
+      "新生儿",
+      "仰睡",
+      "侧睡",
+      "枕头"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "宝宝打嗝怎么处理？拍嗝要拍多久？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "第7章　1～3月龄",
+      "第10章 安全而充满爱意地喂奶粉",
+      "第16章 照料难缠或肠痉挛的宝宝"
+    ],
+    "expected_keywords": [
+      "打嗝",
+      "拍嗝"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "宝宝4个月感冒了，流鼻涕鼻塞，怎么预防下次再感冒？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "感冒"
+    ],
+    "expected_keywords": [
+      "感冒",
+      "4个"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "宝宝发烧38.5度，是不是一定要吃退烧药？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "发烧",
+      "感冒"
+    ],
+    "expected_keywords": [
+      "发烧",
+      "退烧药",
+      "38.5度"
+    ],
+    "is_safety_critical": true
+  },
+  {
+    "query": "高烧会烧坏孩子吗？什么情况下必须去医院？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "发烧",
+      "感冒"
+    ],
+    "expected_keywords": [
+      "高烧会烧坏孩子吗"
+    ],
+    "is_safety_critical": true
+  },
+  {
+    "query": "发烧时什么温度要吃退烧药？美林和泰诺林怎么选？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "第九章　正确使用药物",
+      "第27章 常见医学问题的家庭护理",
+      "第一章　感冒、发烧"
+    ],
+    "expected_keywords": [
+      "发烧",
+      "退烧药",
+      "美林",
+      "泰诺林"
+    ],
+    "is_safety_critical": true
+  },
+  {
+    "query": "宝宝发烧手脚冰冷怎么办？要不要多盖被子？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "第27章 常见医学问题的家庭护理",
+      "第一章　感冒、发烧"
+    ],
+    "expected_keywords": [
+      "发烧",
+      "宝宝发烧手脚冰冷怎么办"
+    ],
+    "is_safety_critical": true
+  },
+  {
+    "query": "感冒发烧要吃什么药？抗生素有用吗？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "发烧",
+      "感冒"
+    ],
+    "expected_keywords": [
+      "发烧",
+      "感冒",
+      "抗生素"
+    ],
+    "is_safety_critical": true
+  },
+  {
+    "query": "宝宝反复发烧是什么原因？要查血吗？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "发烧",
+      "感冒"
+    ],
+    "expected_keywords": [
+      "发烧",
+      "宝宝反复发烧是什么原因",
+      "要查血吗"
+    ],
+    "is_safety_critical": true
+  },
+  {
+    "query": "退烧药吃了还是不退烧怎么办？可以交替吃吗？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "发烧",
+      "感冒"
+    ],
+    "expected_keywords": [
+      "退烧药",
+      "退烧药吃了还是不退烧怎么办"
+    ],
+    "is_safety_critical": true
+  },
+  {
+    "query": "孩子发烧抽搐了怎么办？是热性惊厥吗？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "第28章 常见紧急状况的急救和处理方法",
+      "第27章 常见医学问题的家庭护理",
+      "第一章　感冒、发烧"
+    ],
+    "expected_keywords": [
+      "发烧",
+      "抽搐",
+      "惊厥",
+      "热性惊厥"
+    ],
+    "is_safety_critical": true
+  },
+  {
+    "query": "感冒咳嗽有痰怎么办？可以吃止咳药吗？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "第22章　耳、鼻、咽喉问题",
+      "第二章　咳嗽",
+      "第27章 常见医学问题的家庭护理"
+    ],
+    "expected_keywords": [
+      "感冒",
+      "咳嗽",
+      "止咳药"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "我家早产宝宝出院了才1300克，回家后该怎么护理？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "日常护理"
+    ],
+    "expected_keywords": [
+      "1300克",
+      "我家早产宝宝出院了才1300克",
+      "回家后该怎么护理"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "宝宝耳朵里有很多耳垢，需要帮他清理吗？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "日常护理"
+    ],
+    "expected_keywords": [
+      "宝宝耳朵里有很多耳垢"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "怎么判断宝宝穿多了还是穿少了？摸手脚准不准？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "婴儿的基本护理",
+      "生长曲线 看得见的生长秘密"
+    ],
+    "expected_keywords": [
+      "摸手脚准不准"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "宝宝不小心吃了我的药，怎么办？需要催吐吗？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "日常护理"
+    ],
+    "expected_keywords": [
+      "催吐",
+      "宝宝不小心吃了我的药"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "宝宝拉肚子脱水了怎么办？怎么判断脱水程度？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "第27章 常见医学问题的家庭护理",
+      "第一章　感冒、发烧",
+      "第16章　腹部、消化道问题"
+    ],
+    "expected_keywords": [
+      "脱水",
+      "宝宝拉肚子脱水了怎么办"
+    ],
+    "is_safety_critical": true
+  },
+  {
+    "query": "宝宝红屁股了怎么办？护臀膏怎么选？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "第7章 最初几周的一般护理",
+      "第十章　其他",
+      "第四章 解码 便便的学问"
+    ],
+    "expected_keywords": [
+      "红屁股",
+      "护臀膏"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "可以用安抚奶嘴吗？什么时候戒？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "日常护理"
+    ],
+    "expected_keywords": [
+      "安抚奶嘴"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "宝宝便秘了怎么办？辅食添加后大便很干",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "第27章 常见医学问题的家庭护理",
+      "第六章　便便问题",
+      "第五章　锻炼宝宝的消化吸收能力"
+    ],
+    "expected_keywords": [
+      "便秘",
+      "辅食"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "宝宝出门怎么防晒？可以用防晒霜吗？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "第34章　皮肤问题",
+      "第28章 常见紧急状况的急救和处理方法",
+      "第6章　第1个月"
+    ],
+    "expected_keywords": [
+      "防晒",
+      "宝宝出门怎么防晒"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "宝宝长了湿疹，需要忌口吗？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "第五章　过敏",
+      "第27章 常见医学问题的家庭护理",
+      "第六章 食物过敏 热点问题"
+    ],
+    "expected_keywords": [
+      "湿疹",
+      "忌口"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "母乳是宝宝最好的食物吗？配方奶和母乳差在哪？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "第二章 母乳喂养 给孩子的最好礼物",
+      "第26章 让宝宝健康不生病",
+      "第12章 10招让你成为家庭营养师"
+    ],
+    "expected_keywords": [
+      "母乳",
+      "配方奶"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "母乳不够要加奶粉吗？混合喂养怎么安排？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "食物"
+    ],
+    "expected_keywords": [
+      "母乳",
+      "奶粉",
+      "混合喂养"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "什么时候添加辅食？第一口应该吃什么？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "第一章 食物 随生长发育而变化",
+      "第三章　辅食添加步步来",
+      "第8章　4～7月龄"
+    ],
+    "expected_keywords": [
+      "辅食",
+      "第一口应该吃什么"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "辅食添加顺序是什么？先吃菜泥还是肉泥？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "食物"
+    ],
+    "expected_keywords": [
+      "辅食",
+      "辅食添加顺序是什么",
+      "先吃菜泥还是肉泥"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "宝宝不吃辅食怎么办？只爱吃奶",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "第三章　辅食添加步步来",
+      "第四章　营养素要不要补",
+      "第8章　4～7月龄"
+    ],
+    "expected_keywords": [
+      "辅食",
+      "吃奶"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "什么时候可以吃鸡蛋？先吃蛋黄还是蛋白？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "食物"
+    ],
+    "expected_keywords": [
+      "先吃蛋黄还是蛋白"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "宝宝挑食怎么办？不肯吃蔬菜",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "第六章　每个孩子都能好好吃饭",
+      "第12章　3岁",
+      "第13章 给学步期宝宝喂食"
+    ],
+    "expected_keywords": [
+      "挑食",
+      "宝宝挑食怎么办",
+      "不肯吃蔬菜"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "一岁后还喝配方奶吗？可以喝鲜奶吗？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "食物"
+    ],
+    "expected_keywords": [
+      "配方奶",
+      "一岁后还喝配方奶吗"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "宝宝1岁多了，老说'不'，什么都对着干，这是正常的吗？",
+    "expected_source": "美国儿科学会育儿百科",
+    "expected_chapters": [
+      "1岁"
+    ],
+    "expected_keywords": [
+      "1岁",
+      "宝宝1岁多了",
+      "这是正常的吗",
+      "老说"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "1岁半宝宝特别护东西，别人碰一下就哭，怎么引导？",
+    "expected_source": "美国儿科学会育儿百科",
+    "expected_chapters": [
+      "1岁"
+    ],
+    "expected_keywords": [
+      "1岁",
+      "1岁半宝宝特别护东西",
+      "别人碰一下就哭"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "1岁宝宝该打什么疫苗？有什么注意事项？",
+    "expected_source": "美国儿科学会育儿百科",
+    "expected_chapters": [
+      "第9章　8～12月龄",
+      "第26章 让宝宝健康不生病",
+      "第29章　头、颈和神经系统问题"
+    ],
+    "expected_keywords": [
+      "疫苗",
+      "1岁"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "1岁宝宝不会说话正常吗？要做什么检查？",
+    "expected_source": "美国儿科学会育儿百科",
+    "expected_chapters": [
+      "第9章　8～12月龄",
+      "第四章 发育 语言！认知！",
+      "第21章 6～12个月：迅速发展"
+    ],
+    "expected_keywords": [
+      "说话",
+      "1岁"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "1岁后怎么安排睡眠？还需要白天小睡吗？",
+    "expected_source": "美国儿科学会育儿百科",
+    "expected_chapters": [
+      "第15章 夜间育儿：如何让宝宝乖乖安睡",
+      "第三章 睡眠 自主无忧的开始",
+      "第35章　孩子的睡眠"
+    ],
+    "expected_keywords": [
+      "睡眠",
+      "1岁"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "1岁宝宝吃什么合适？可以加盐和糖吗？",
+    "expected_source": "美国儿科学会育儿百科",
+    "expected_chapters": [
+      "1岁"
+    ],
+    "expected_keywords": [
+      "1岁",
+      "1岁宝宝吃什么合适"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "孩子2岁了，整天说'不'，是不是进入了可怕的两岁？",
+    "expected_source": "美国儿科学会育儿百科",
+    "expected_chapters": [
+      "2岁"
+    ],
+    "expected_keywords": [
+      "2岁",
+      "孩子2岁了",
+      "整天说"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "宝宝2岁了，什么时候开始如厕训练比较合适？",
+    "expected_source": "美国儿科学会育儿百科",
+    "expected_chapters": [
+      "2岁"
+    ],
+    "expected_keywords": [
+      "如厕训练",
+      "2岁"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "2岁宝宝老发脾气，有什么办法应对吗？",
+    "expected_source": "美国儿科学会育儿百科",
+    "expected_chapters": [
+      "2岁"
+    ],
+    "expected_keywords": [
+      "2岁",
+      "2岁宝宝老发脾气"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "家里有大宝了，再生一个小宝宝，怎么让大宝接受？",
+    "expected_source": "美国儿科学会育儿百科",
+    "expected_chapters": [
+      "二胎宝宝 热点问题",
+      "第一次 亲密接触"
+    ],
+    "expected_keywords": [
+      "大宝",
+      "再生一个小宝宝",
+      "家里有大宝了"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "2岁宝宝说话不清楚正常吗？要干预吗？",
+    "expected_source": "美国儿科学会育儿百科",
+    "expected_chapters": [
+      "2岁"
+    ],
+    "expected_keywords": [
+      "说话",
+      "2岁"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "2岁可以上幼儿园托班吗？怎么判断准备好了？",
+    "expected_source": "美国儿科学会育儿百科",
+    "expected_chapters": [
+      "2岁",
+      "工作与育儿"
+    ],
+    "expected_keywords": [
+      "幼儿园",
+      "托班",
+      "2岁"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "宝宝3岁了，该不该送幼儿园？怎么判断他准备好了没有？",
+    "expected_source": "美国儿科学会育儿百科",
+    "expected_chapters": [
+      "3岁"
+    ],
+    "expected_keywords": [
+      "幼儿园",
+      "3岁"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "3岁孩子开始跟我讨价还价了，怎么应对？",
+    "expected_source": "美国儿科学会育儿百科",
+    "expected_chapters": [
+      "3岁"
+    ],
+    "expected_keywords": [
+      "3岁",
+      "3岁孩子开始跟我讨价还价了"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "3岁还尿床正常吗？需要如厕训练吗？",
+    "expected_source": "美国儿科学会育儿百科",
+    "expected_chapters": [
+      "3岁"
+    ],
+    "expected_keywords": [
+      "如厕训练",
+      "3岁"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "3岁宝宝怕黑不敢自己睡怎么办？",
+    "expected_source": "美国儿科学会育儿百科",
+    "expected_chapters": [
+      "第15章 夜间育儿：如何让宝宝乖乖安睡",
+      "第12章　3岁"
+    ],
+    "expected_keywords": [
+      "3岁",
+      "3岁宝宝怕黑不敢自己睡怎么办"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "上幼儿园老是生病，是不是免疫力差？",
+    "expected_source": "美国儿科学会育儿百科",
+    "expected_chapters": [
+      "感冒、发烧",
+      "恢复免疫力"
+    ],
+    "expected_keywords": [
+      "免疫力",
+      "幼儿园"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "3岁可以学什么？要不要报兴趣班？",
+    "expected_source": "美国儿科学会育儿百科",
+    "expected_chapters": [
+      "3岁"
+    ],
+    "expected_keywords": [
+      "3岁",
+      "3岁可以学什么"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "4岁孩子情绪变化特别快，而且对日常规律很执着，正常吗？",
+    "expected_source": "美国儿科学会育儿百科",
+    "expected_chapters": [
+      "4～5岁"
+    ],
+    "expected_keywords": [
+      "4岁",
+      "4岁孩子情绪变化特别快",
+      "而且对日常规律很执着",
+      "正常吗"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "4岁宝宝突然开始说脏话和不好听的话，故意看我们反应，该怎么办？",
+    "expected_source": "美国儿科学会育儿百科",
+    "expected_chapters": [
+      "4～5岁"
+    ],
+    "expected_keywords": [
+      "4岁",
+      "4岁宝宝突然开始说脏话和不好听的话",
+      "故意看我们反应",
+      "该怎么办"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "5岁还要人陪睡怎么办？可以自己睡了吗？",
+    "expected_source": "美国儿科学会育儿百科",
+    "expected_chapters": [
+      "夜间育儿",
+      "4～5岁"
+    ],
+    "expected_keywords": [
+      "5岁",
+      "5岁还要人陪睡怎么办"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "4岁孩子说谎是怎么回事？要纠正吗？",
+    "expected_source": "美国儿科学会育儿百科",
+    "expected_chapters": [
+      "4～5岁"
+    ],
+    "expected_keywords": [
+      "4岁",
+      "4岁孩子说谎是怎么回事",
+      "要纠正吗"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "5岁上学前班好还是直接上小学？",
+    "expected_source": "美国儿科学会育儿百科",
+    "expected_chapters": [
+      "4～5岁"
+    ],
+    "expected_keywords": [
+      "5岁",
+      "5岁上学前班好还是直接上小学"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "4-5岁宝宝问我是从哪里来的，怎么回答？",
+    "expected_source": "美国儿科学会育儿百科",
+    "expected_chapters": [
+      "4～5岁"
+    ],
+    "expected_keywords": [
+      "5岁",
+      "5岁宝宝问我是从哪里来的"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "家里有哪些安全隐患是我没注意到的？怎么预防宝宝意外受伤？",
+    "expected_source": "美国儿科学会育儿百科",
+    "expected_chapters": [
+      "第25章 给宝宝安全的居家环境"
+    ],
+    "expected_keywords": [
+      "安全隐患",
+      "家里有哪些安全隐患是我没注意到的"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "宝宝坐车必须用安全座椅吗？有什么要求？",
+    "expected_source": "美国儿科学会育儿百科",
+    "expected_chapters": [
+      "第15章　确保孩子的安全",
+      "第25章 给宝宝安全的居家环境"
+    ],
+    "expected_keywords": [
+      "安全座椅",
+      "宝宝坐车必须用安全座椅吗"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "宝宝从高处摔下来了，怎么判断有没有事？",
+    "expected_source": "美国儿科学会育儿百科",
+    "expected_chapters": [
+      "急诊",
+      "常见紧急状况的急救和处理方法"
+    ],
+    "expected_keywords": [
+      "宝宝从高处摔下来了"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "宝宝误食了小玩具怎么办？会窒息吗？",
+    "expected_source": "美国儿科学会育儿百科",
+    "expected_chapters": [
+      "1岁"
+    ],
+    "expected_keywords": [
+      "窒息",
+      "误食"
+    ],
+    "is_safety_critical": true
+  },
+  {
+    "query": "热水烫伤怎么处理？要涂牙膏吗？",
+    "expected_source": "美国儿科学会育儿百科",
+    "expected_chapters": [
+      "第28章 常见紧急状况的急救和处理方法",
+      "第23章　急诊"
+    ],
+    "expected_keywords": [
+      "烫伤",
+      "热水烫伤怎么处理",
+      "要涂牙膏吗"
+    ],
+    "is_safety_critical": true
+  },
+  {
+    "query": "宝宝溺水了怎么急救？人工呼吸怎么做？",
+    "expected_source": "美国儿科学会育儿百科",
+    "expected_chapters": [
+      "急诊",
+      "常见紧急状况的急救和处理方法"
+    ],
+    "expected_keywords": [
+      "溺水",
+      "宝宝溺水了怎么急救",
+      "人工呼吸怎么做"
+    ],
+    "is_safety_critical": true
+  },
+  {
+    "query": "母乳不够，想混合喂养，怎么选奶粉？不同奶粉差别大吗？",
+    "expected_source": "西尔斯亲密育儿百科",
+    "expected_chapters": [
+      "喂奶粉"
+    ],
+    "expected_keywords": [
+      "母乳",
+      "奶粉",
+      "混合喂养"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "奶粉有粉状、浓缩液和即食的，哪种适合新生儿？",
+    "expected_source": "西尔斯亲密育儿百科",
+    "expected_chapters": [
+      "喂奶粉"
+    ],
+    "expected_keywords": [
+      "奶粉",
+      "新生儿"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "配方奶怎么冲泡？水温多少合适？",
+    "expected_source": "西尔斯亲密育儿百科",
+    "expected_chapters": [
+      "第10章 安全而充满爱意地喂奶粉",
+      "第4章　婴儿的喂养"
+    ],
+    "expected_keywords": [
+      "配方奶",
+      "配方奶怎么冲泡",
+      "水温多少合适"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "宝宝吐奶严重怎么办？是不是奶粉不适应？",
+    "expected_source": "西尔斯亲密育儿百科",
+    "expected_chapters": [
+      "喂奶粉"
+    ],
+    "expected_keywords": [
+      "奶粉",
+      "吐奶"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "什么时候可以断夜奶？怎么断？",
+    "expected_source": "西尔斯亲密育儿百科",
+    "expected_chapters": [
+      "喂奶粉",
+      "夜间育儿"
+    ],
+    "expected_keywords": [
+      "夜奶"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "奶瓶怎么消毒？煮沸还是蒸汽？",
+    "expected_source": "西尔斯亲密育儿百科",
+    "expected_chapters": [
+      "喂奶粉"
+    ],
+    "expected_keywords": [
+      "奶瓶",
+      "消毒"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "宝宝几个月可以加辅食？是看时间还是看宝宝自己的信号？",
+    "expected_source": "西尔斯亲密育儿百科",
+    "expected_chapters": [
+      "第一章 食物 随生长发育而变化",
+      "第二章 生长曲线 看得见的生长秘密",
+      "第三章　辅食添加步步来"
+    ],
+    "expected_keywords": [
+      "辅食",
+      "是看时间还是看宝宝自己的信号",
+      "宝宝几个月可以加辅食"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "怎么培养宝宝健康的饮食习惯？不想让他以后只爱吃零食",
+    "expected_source": "西尔斯亲密育儿百科",
+    "expected_chapters": [
+      "引入固体食物",
+      "10招让你成为家庭营养师"
+    ],
+    "expected_keywords": [
+      "不想让他以后只爱吃零食"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "被外婆催着加辅食，但宝宝看起来不感兴趣，可以等吗？",
+    "expected_source": "西尔斯亲密育儿百科",
+    "expected_chapters": [
+      "引入固体食物"
+    ],
+    "expected_keywords": [
+      "辅食",
+      "但宝宝看起来不感兴趣",
+      "被外婆催着加辅食"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "宝宝需要吃脂肪吗？吃什么脂肪对大脑发育好？",
+    "expected_source": "西尔斯亲密育儿百科",
+    "expected_chapters": [
+      "家庭营养师"
+    ],
+    "expected_keywords": [
+      "吃什么脂肪对大脑发育好",
+      "宝宝需要吃脂肪吗"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "宝宝要多吃鱼吗？三文鱼对婴儿有什么好处？",
+    "expected_source": "西尔斯亲密育儿百科",
+    "expected_chapters": [
+      "家庭营养师"
+    ],
+    "expected_keywords": [
+      "三文鱼对婴儿有什么好处",
+      "宝宝要多吃鱼吗"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "1岁多的宝宝突然不爱吃饭了，体重也不怎么长，是不是有问题？",
+    "expected_source": "西尔斯亲密育儿百科",
+    "expected_chapters": [
+      "第六章　每个孩子都能好好吃饭",
+      "第二章 生长曲线 看得见的生长秘密"
+    ],
+    "expected_keywords": [
+      "体重",
+      "1岁"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "宝宝晚上老醒，朋友推荐哭声免疫法，这个方法靠谱吗？",
+    "expected_source": "西尔斯亲密育儿百科",
+    "expected_chapters": [
+      "夜间育儿"
+    ],
+    "expected_keywords": [
+      "朋友推荐哭声免疫法",
+      "宝宝晚上老醒"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "宝宝晚上频繁夜醒，是不是睡眠有问题？",
+    "expected_source": "西尔斯亲密育儿百科",
+    "expected_chapters": [
+      "夜间育儿"
+    ],
+    "expected_keywords": [
+      "睡眠",
+      "宝宝晚上频繁夜醒"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "怎么帮助宝宝建立健康的睡眠态度？",
+    "expected_source": "西尔斯亲密育儿百科",
+    "expected_chapters": [
+      "夜间育儿"
+    ],
+    "expected_keywords": [
+      "睡眠"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "宝宝很喜欢被抱着，放下就哭，多抱会不会宠坏他？",
+    "expected_source": "西尔斯亲密育儿百科",
+    "expected_chapters": [
+      "抱孩子"
+    ],
+    "expected_keywords": [
+      "宝宝很喜欢被抱着",
+      "多抱会不会宠坏他",
+      "放下就哭"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "用背巾背着宝宝有什么好处？多大开始可以用？",
+    "expected_source": "西尔斯亲密育儿百科",
+    "expected_chapters": [
+      "抱孩子"
+    ],
+    "expected_keywords": [
+      "背巾",
+      "用背巾背着宝宝有什么好处"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "宝宝傍晚开始连续哭几个小时，怎么哄都没用，是不是肠绞痛？",
+    "expected_source": "西尔斯亲密育儿百科",
+    "expected_chapters": [
+      "肠痉挛"
+    ],
+    "expected_keywords": [
+      "肠绞痛",
+      "宝宝傍晚开始连续哭几个小时"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "高需求宝宝和难缠宝宝有什么区别？怎么照顾？",
+    "expected_source": "西尔斯亲密育儿百科",
+    "expected_chapters": [
+      "肠痉挛"
+    ],
+    "expected_keywords": [
+      "高需求宝宝和难缠宝宝有什么区别"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "产假快结束了要回去上班，会不会影响跟宝宝的亲密关系？",
+    "expected_source": "西尔斯亲密育儿百科",
+    "expected_chapters": [
+      "工作与育儿"
+    ],
+    "expected_keywords": [
+      "产假快结束了要回去上班"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "听说亲密育儿就是要多抱、多喂母乳、多回应，到底什么是真正的亲密育儿？",
+    "expected_source": "西尔斯亲密育儿百科",
+    "expected_chapters": [
+      "第1章 什么是亲密育儿法"
+    ],
+    "expected_keywords": [
+      "亲密育儿",
+      "母乳喂养",
+      "回应"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "宝宝多大可以看手机和平板？每天看多久合适？会影响视力吗？",
+    "expected_source": "美国儿科学会育儿百科",
+    "expected_chapters": [
+      "第32章　媒体问题"
+    ],
+    "expected_keywords": [
+      "屏幕时间",
+      "视力",
+      "幼儿"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "孩子突然喘不上气、咳嗽不停，是不是哮喘？怎么确诊？",
+    "expected_source": "美国儿科学会育儿百科",
+    "expected_chapters": [
+      "第17章　哮喘和过敏"
+    ],
+    "expected_keywords": [
+      "哮喘",
+      "喘不上气",
+      "咳嗽"
+    ],
+    "is_safety_critical": true
+  },
+  {
+    "query": "宝宝发烧3天，烧退了身上突然出了很多红疹子，这是幼儿急疹吗？还会再出吗？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "第四章　幼儿急疹",
+      "发烧"
+    ],
+    "expected_keywords": [
+      "幼儿急疹",
+      "热退疹出",
+      "红疹"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "宝宝腹泻好多天了，要不要停辅食？能吃什么东西帮助恢复？",
+    "expected_source": "崔玉涛谈自然养育",
+    "expected_chapters": [
+      "第三章　腹泻"
+    ],
+    "expected_keywords": [
+      "腹泻",
+      "停辅食",
+      "脱水"
+    ],
+    "is_safety_critical": false
+  },
+  {
+    "query": "疫苗接种可以推迟吗？推迟了有什么风险？自费疫苗要不要打？",
+    "expected_source": "美国儿科学会育儿百科",
+    "expected_chapters": [
+      "第31章　疫苗接种"
+    ],
+    "expected_keywords": [
+      "疫苗接种",
+      "推迟",
+      "自费疫苗",
+      "免疫"
+    ],
+    "is_safety_critical": true
+  }
+]

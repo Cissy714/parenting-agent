@@ -1,0 +1,224 @@
+[
+  {
+    "name": "档案记忆-宝宝名字回忆",
+    "setup_conversation": [["user", "宝宝叫小豆子，3个月，纯母乳喂养"]],
+    "test_query": "小豆子今天有点哭闹怎么办",
+    "expected_memory_recall": ["小豆子"],
+    "expected_preference": null,
+    "description": "测试档案创建后是否能回忆宝宝名字"
+  },
+  {
+    "name": "档案记忆-年龄和喂养方式",
+    "setup_conversation": [["user", "宝宝叫乐乐，6个月，混合喂养，牛奶蛋白过敏"]],
+    "test_query": "乐乐最近不喝奶粉了，只喝母乳",
+    "expected_memory_recall": ["乐乐", "6个月", "过敏"],
+    "expected_preference": null,
+    "description": "测试多属性档案的记忆与回忆"
+  },
+  {
+    "name": "档案记忆-出生日期计算月龄",
+    "setup_conversation": [["user", "宝宝叫果果，出生日期2025年9月15号"]],
+    "test_query": "果果现在该加辅食了吗",
+    "expected_memory_recall": ["果果"],
+    "expected_preference": null,
+    "description": "测试基于出生日期的月龄推算"
+  },
+  {
+    "name": "偏好学习-物理降温倾向",
+    "setup_conversation": [["user", "我不太喜欢给宝宝用药，觉得能不用药就不用，倾向于物理降温"]],
+    "test_query": "小豆子发烧38度了，怎么处理",
+    "expected_memory_recall": ["物理降温"],
+    "expected_preference": "物理降温",
+    "description": "测试用户偏好的学习和应用"
+  },
+  {
+    "name": "偏好学习-纯母乳坚持",
+    "setup_conversation": [["user", "我坚持纯母乳喂养，不想加任何奶粉，觉得母乳是最好的"]],
+    "test_query": "小豆子最近体重长得慢，要不要加点奶粉",
+    "expected_memory_recall": ["母乳"],
+    "expected_preference": "母乳喂养",
+    "description": "测试纯母乳偏好的应用"
+  },
+  {
+    "name": "偏好学习-中医倾向",
+    "setup_conversation": [["user", "我比较信中医，希望尽量用中医疗法调理宝宝"]],
+    "test_query": "小豆子最近消化不好",
+    "expected_memory_recall": ["中医"],
+    "expected_preference": "中医疗法",
+    "description": "测试中医倾向偏好"
+  },
+  {
+    "name": "情景记忆-上次生病事件",
+    "setup_conversation": [["user", "小豆子上周打了疫苗，之后发烧了两天，到39度，我们给他吃了退烧药"]],
+    "test_query": "小豆子今天又有点发烧了，和上次疫苗后的发烧一样吗",
+    "expected_memory_recall": ["疫苗", "发烧", "39度"],
+    "expected_preference": null,
+    "description": "测试历史医疗事件的记忆"
+  },
+  {
+    "name": "情景记忆-第一次吃辅食",
+    "setup_conversation": [["user", "小豆子5个半月第一次吃米糊，吃了一小勺，很喜欢，但第二天背上出小红点，怀疑米粉过敏就停了"]],
+    "test_query": "小豆子现在6个月了，想再试辅食，上次米粉过敏这次要不要换燕麦？",
+    "expected_memory_recall": ["过敏", "米粉", "红点"],
+    "expected_preference": null,
+    "description": "测试食物过敏历史的记忆"
+  },
+  {
+    "name": "情景记忆-上次用药效果",
+    "setup_conversation": [["user", "上次小豆子感冒咳嗽，用了医生开的盐酸氨溴索，效果不太好，后来用生理盐水雾化反而好多了"]],
+    "test_query": "小豆子又感冒咳嗽了，上次那个药感觉没用，还要再试吗",
+    "expected_memory_recall": ["盐酸氨溴索", "雾化", "没用"],
+    "expected_preference": null,
+    "description": "测试用药效果历史的记忆"
+  },
+  {
+    "name": "多宝宝区分-两个宝宝不同需求",
+    "setup_conversation": [
+      ["user", "大宝叫豆豆，2岁了"],
+      ["user", "二宝叫苗苗，6个月"]
+    ],
+    "test_query": "苗苗该吃什么辅食",
+    "expected_memory_recall": ["苗苗", "6个月"],
+    "expected_preference": null,
+    "description": "测试多宝宝档案的正确区分"
+  },
+  {
+    "name": "多宝宝区分-大宝生病二宝预防",
+    "setup_conversation": [
+      ["user", "大宝豆豆2岁，在幼儿园得了手足口"],
+      ["user", "二宝苗苗6个月，还没得"]
+    ],
+    "test_query": "苗苗要怎么预防被传染手足口",
+    "expected_memory_recall": ["苗苗", "6个月", "豆豆"],
+    "expected_preference": null,
+    "description": "测试多宝宝间的关联记忆"
+  },
+  {
+    "name": "多宝宝区分-不要混淆",
+    "setup_conversation": [
+      ["user", "大宝乐乐3岁，已经上幼儿园了"],
+      ["user", "二宝欢欢才2个月"]
+    ],
+    "test_query": "欢欢黄疸还没退怎么办",
+    "expected_memory_recall": ["欢欢", "2个月"],
+    "expected_preference": null,
+    "description": "测试不混淆两宝宝信息"
+  },
+  {
+    "name": "档案更新-月龄增长",
+    "setup_conversation": [["user", "宝宝叫小团子，出生时2.7kg，是足月小样儿"]],
+    "test_query": "小团子现在4个月了，体重6kg，追得怎么样",
+    "expected_memory_recall": ["小团子", "低体重"],
+    "expected_preference": null,
+    "description": "测试档案信息的持续更新"
+  },
+  {
+    "name": "偏好学习-反对哭声免疫法",
+    "setup_conversation": [["user", "我坚决反对哭声免疫法，觉得那样会伤害宝宝的信任感。我更相信亲密育儿，宝宝哭了要及时回应"]],
+    "test_query": "小豆子昨晚又频繁夜醒了，朋友推荐哭声免疫法，我很纠结",
+    "expected_memory_recall": ["反对", "哭声免疫法", "亲密育儿"],
+    "expected_preference": "亲密育儿",
+    "description": "测试强烈偏好的持续应用"
+  },
+  {
+    "name": "情景记忆-上次摔伤事件",
+    "setup_conversation": [["user", "上个月小豆子从沙发上摔下来过，当时去了急诊，做了CT，还好没事"]],
+    "test_query": "小豆子今天又从床上摔下来了，要去医院吗",
+    "expected_memory_recall": ["急诊", "CT", "摔"],
+    "expected_preference": null,
+    "description": "测试外伤历史的情景记忆"
+  },
+  {
+    "name": "偏好学习-素食家庭",
+    "setup_conversation": [["user", "我们家是素食家庭，宝宝也不吃任何肉类"]],
+    "test_query": "小豆子缺铁性贫血了，不吃肉怎么补铁",
+    "expected_memory_recall": ["素食", "不吃肉"],
+    "expected_preference": "素食",
+    "description": "测试特殊饮食偏好的应用"
+  },
+  {
+    "name": "多轮累积-渐进式信息",
+    "setup_conversation": [
+      ["user", "宝宝叫小圆子"],
+      ["user", "小圆子是女孩"],
+      ["user", "小圆子有湿疹"]
+    ],
+    "test_query": "小圆子皮肤又红了，湿疹护理要注意什么",
+    "expected_memory_recall": ["小圆子", "湿疹"],
+    "expected_preference": null,
+    "description": "测试渐进式档案累积"
+  },
+  {
+    "name": "跨会话一致性-发烧建议",
+    "setup_conversation": [["user", "小豆子发烧到39度了，上次医生说布洛芬和对乙酰氨基酚可以交替用"]],
+    "test_query": "小豆子又烧到39度了，上次那个交替用的方法还能再用吗",
+    "expected_memory_recall": ["交替", "布洛芬", "对乙酰氨基酚"],
+    "expected_preference": null,
+    "description": "测试跨会话用药方案一致性"
+  },
+  {
+    "name": "偏好学习-反对抗生素滥用",
+    "setup_conversation": [["user", "我觉得现在医生开抗生素太随便了，我希望尽量不给宝宝用抗生素，除非真的必要"]],
+    "test_query": "小豆子咳嗽一周了，有黄痰，需要吃抗生素吗",
+    "expected_memory_recall": ["不用", "抗生素"],
+    "expected_preference": "避免抗生素",
+    "description": "测试避免抗生素偏好"
+  },
+  {
+    "name": "情景记忆-生长发育里程碑",
+    "setup_conversation": [["user", "小豆子4个月会翻身了，5个半月会坐了，现在快7个月了还不会爬"]],
+    "test_query": "小豆子7个月还不会爬，但他翻身和坐都挺快的，是不是每个宝宝的发育顺序不一样？",
+    "expected_memory_recall": ["翻身", "坐", "爬", "发育"],
+    "expected_preference": null,
+    "description": "测试发育里程碑的情景记忆"
+  },
+  {
+    "name": "空档案-用户从未提及宝宝信息",
+    "setup_conversation": [],
+    "test_query": "宝宝发烧了怎么办",
+    "expected_memory_recall": [],
+    "expected_preference": null,
+    "description": "测试无档案情况下的合理回答"
+  },
+  {
+    "name": "档案覆盖-新旧信息不冲突",
+    "setup_conversation": [
+      ["user", "宝宝叫小豆子，纯母乳喂养"],
+      ["user", "小豆子现在4个月了，开始加一点米糊"]
+    ],
+    "test_query": "小豆子大便有点干，是不是加米糊不太适应",
+    "expected_memory_recall": ["小豆子", "米糊"],
+    "expected_preference": null,
+    "description": "测试新信息正确叠加在旧档案上"
+  },
+  {
+    "name": "偏好反转-用户改变主意",
+    "setup_conversation": [
+      ["user", "我一直坚持纯母乳，不想加奶粉"],
+      ["user", "但最近奶越来越少，小豆子体重不长，我打算混合喂养了"]
+    ],
+    "test_query": "小豆子混合喂养要怎么选奶粉",
+    "expected_memory_recall": ["小豆子", "混合喂养"],
+    "expected_preference": "混合喂养",
+    "description": "测试偏好改变后的档案更新"
+  },
+  {
+    "name": "多宝宝-大年龄段差距",
+    "setup_conversation": [
+      ["user", "大宝叫天天，10岁了"],
+      ["user", "二宝叫乐乐，才3个月"]
+    ],
+    "test_query": "乐乐发烧了，天天那年发烧是怎么处理的我也忘了",
+    "expected_memory_recall": ["乐乐", "3个月"],
+    "expected_preference": null,
+    "description": "测试年龄差距大的两宝宝区分"
+  },
+  {
+    "name": "情景记忆-过敏事件细节",
+    "setup_conversation": [["user", "小豆子第一次吃虾的时候，嘴巴周围红肿，还吐了一次，我们吓得直接去了急诊，医生说是海鲜过敏"]],
+    "test_query": "小豆子能尝试吃鱼吗？上次虾过敏挺吓人的，鱼和虾不一样吧？",
+    "expected_memory_recall": ["过敏", "虾", "海鲜"],
+    "expected_preference": null,
+    "description": "测试严重过敏史的记忆和后续相关问题的关联"
+  }
+]
